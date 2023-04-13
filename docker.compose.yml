@@ -1,0 +1,8 @@
+version: "3"
+services:
+  dth:
+    image: sraj1/phonepaydth
+    ports:
+      - "8000:80"
+    volumes:
+      - "dthvol"
